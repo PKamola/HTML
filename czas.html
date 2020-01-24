@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="Stylesheet" type="text/css" href="czas.css" />
+    <script>
+        function pushbutton() {alert("NIE DA SIĘ!"); }
+    </script>
+    <script>
+        function koniec() {alert("TERAZ!"); document.getElementById('data').innerHTML=Date() }         
+    </script>
+    <meta charset="utf-8">
+    <title>Czas Apokalipsy</title>
+</head>
+<body>
+    <div id ="strona">
+        <div id="logo">
+            <u>Czas apokalipsy</u>
+        </div>
+        <input type="button" name="koniec" value="Naciśnij aby dowiedzieć się kiedy nastąpi apokalipsa." onclick="koniec()">
+        <input type="button" name="zapobieganie" value="Jak można temu zapobiec?" onclick="pushbutton()">
+        <div id="data"></div>
+        <audio controls>
+            <source src="koniec.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div id="powrot">
+        <a href="apokalipsa.html">Powrót</a>
+    </div>
+</body>
+</html>
+
+
+
+
+
+

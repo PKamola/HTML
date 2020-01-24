@@ -1,0 +1,31 @@
+a:link { color: white; text-decoration: none;}
+a:visited { color: white; text-decoration: none;}
+a:hover { color: red; text-decoration: none;}
+a:active { color: white; text-decoration: none;}
+#strona
+{
+	width: 1000px;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body 
+{
+	background: url("tlo.jpg")no-repeat center center fixed; 
+	background-size: cover;
+}
+#logo
+{
+	font-size: 100px;	
+	color: maroon;
+	text-align: center;
+	font-style: oblique;
+}
+#powrot
+{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+

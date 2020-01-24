@@ -1,0 +1,80 @@
+a:link { color: white; text-decoration: none;}
+a:visited { color: red; text-decoration: none;}
+a:hover { color: blue; text-decoration: none;}
+a:active { color: purple; text-decoration: none;}
+body  
+{
+	background-color: grey;
+	font-family: 'Arial', sans-serif;
+	display: flex;
+	align-items: center;
+}
+font 
+{
+	font-size: 20px;
+}
+.obrazek
+{
+	text-align: center;
+}
+.tekst
+{
+	font-size: 20px;
+	text-align: center;
+}
+#ramka
+{
+	border-style: solid
+}
+#dashed
+{
+	border-style: dashed
+}
+#aaa
+{
+	padding-left: 10px;
+	font-style: oblique;
+	border: 1px solid black;
+	border-style: double	
+}
+#wikipedia
+{
+	font-family: 'Courier New'
+}
+#strona
+{
+	width: 1000px;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo
+{
+	font-size: 50px;	
+	color: red;
+	text-align: center;
+	font-style: oblique;
+}
+#logo2
+{
+	font-size: 50px;	
+	text-align: center;
+	font-style: oblique;
+	font-family: Courier New;
+}
+#tabela
+{
+	font-size: 30px;
+	text-align: center;
+}
+#right
+{
+	font-size: 30px;	
+	text-align: right;
+}
+#link
+{
+	font-size: 30px;
+}
+
+
